@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_isian" />
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edit_nama"/>
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label_alamat"
+        />
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_edit_alamat"/>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_simpan"
+            android:text="@string/btn_simpan"
+            android:layout_marginRight="10dp"
+            android:layout_width="100dp"
+            android:layout_height="50dp"/>
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/btn_reset"
+            android:layout_width="100dp"
+            android:text="@string/btn_reset"
+            android:onClick="resett"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</LinearLayout>

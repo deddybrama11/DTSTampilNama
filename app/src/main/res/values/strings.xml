@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VSGA Project</string>
+    <string name="label_isian">Masukkan nama anda</string>
+    <string name="label_alamat">Masukkan alamat anda</string>
+    <string name="hint_edit_nama">Silahkan masukkan nama anda</string>
+    <string name="hint_edit_alamat">Silahkan masukkan alamat anda</string>
+    <string name="btn_reset">Reset</string>
+    <string name="btn_simpan">Simpan</string>
+</resources>
